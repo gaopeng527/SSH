@@ -67,5 +67,5 @@
 	 <!-- 业务bean -->
 	 <bean id="personService" class="gao.spring.service.impl.PersonServiceImpl"></bean>
 	 
-	 <bean class="gao.spring.po.Person"></bean>
+	 <bean name="/person/list" class="gao.spring.web.action.PersonAction"></bean>
 </beans>
